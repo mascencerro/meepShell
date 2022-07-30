@@ -1,3 +1,4 @@
+#pragma once
 /*
  * Copyright (C) 2016 Southern Storm Software, Pty Ltd.
  *
@@ -19,9 +20,6 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  */
-
-#ifndef TELNET_DEFS_h
-#define TELNET_DEFS_h
 
 // References:
 //     https://tools.ietf.org/html/rfc854
@@ -112,5 +110,3 @@ enum Option
 };
 
 };
-
-#endif

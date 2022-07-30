@@ -1,3 +1,4 @@
+#pragma once
 /*
  * Copyright (C) 2016 Southern Storm Software, Pty Ltd.
  *
@@ -19,9 +20,6 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  */
-
-#ifndef SHELL_h
-#define SHELL_h
 
 #include "Terminal.h"
 #include <Client.h>
@@ -159,5 +157,3 @@ inline ShellCommandRegister::ShellCommandRegister(const ShellCommandInfo *_info)
         (function) \
     }; \
     static ShellCommandRegister shell_cmd_##name(&shell_info_##name)
-
-#endif

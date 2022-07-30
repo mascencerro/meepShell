@@ -1,3 +1,4 @@
+#pragma once
 /*
  * Copyright (C) 2016 Southern Storm Software, Pty Ltd.
  *
@@ -20,11 +21,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef TERMINAL_h
-#define TERMINAL_h
-
 #include <Arduino.h>
-#include <USBAPI.h>
+//#include <USBAPI.h>       /* silence typedef errors */
 #include "USBKeysExtra.h"
 
 // Special key code that indicates that unicodeKey() contains the actual code.
@@ -142,5 +140,3 @@ private:
     int matchEscape(int ch);
     void telnetCommand(uint8_t type, uint8_t option);
 };
-
-#endif
