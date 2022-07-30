@@ -1,3 +1,4 @@
+#pragma once
 /*
  * Copyright (C) 2016 Southern Storm Software, Pty Ltd.
  *
@@ -19,9 +20,6 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  */
-
-#ifndef LOGIN_SHELL_h
-#define LOGIN_SHELL_h
 
 #include "Shell.h"
 
@@ -48,5 +46,3 @@ private:
     const char *machName;
     ShellPasswordCheckFunc checkFunc;
 };
-
-#endif
